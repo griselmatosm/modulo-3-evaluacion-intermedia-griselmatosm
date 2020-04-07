@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/Pokemon.css'; 
 
 function Pokemon(props) {
-//   console.log(props.pokemon.types);
   const type = props.pokemon.types.map((itemType, i) => {
     return <li key={i}>{itemType}</li>;
   });
@@ -10,9 +9,11 @@ function Pokemon(props) {
   return (
 
       <li className="Pokemon">
+        <div className="pokemon-img">
         <img src={props.pokemon.url} alt={props.pokemon.name} />
-        <h2>{props.pokemon.name}</h2>
-        <ul>{type}</ul>
+        </div>
+        <h2 className="pohemon-name">{props.pokemon.name}</h2>
+        <ul className="pokemon-type">{type}</ul>
       </li>
 
   );

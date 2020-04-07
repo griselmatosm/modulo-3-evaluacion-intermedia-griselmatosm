@@ -7,6 +7,7 @@ import '../styles/App.css';
 function App(props) {
   return (
     <div className="App">
+      <h1>Mi lista de Pokemon</h1>
       <PokemonList data={pokemonData}/>    
     </div>
   );

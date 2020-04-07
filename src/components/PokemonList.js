@@ -1,5 +1,6 @@
 import React from 'react';
 import Pokemon from './Pokemon';
+import '../styles/PokemonList.css'
 
 function PokemonList(props) {
   //   console.log(props.data);
@@ -10,7 +11,7 @@ function PokemonList(props) {
   });
 
   return (
-      <ul>{pokemons}</ul>
+      <ul className="pokemons-list">{pokemons}</ul>
   );
 }
 

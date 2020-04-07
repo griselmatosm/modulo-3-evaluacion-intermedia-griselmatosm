@@ -7,8 +7,7 @@ import '../styles/App.css';
 function App(props) {
   return (
     <div className="App">
-      <PokemonList data={pokemonData}/>
-       
+      <PokemonList data={pokemonData}/>    
     </div>
   );
 }

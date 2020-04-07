@@ -1,6 +1,7 @@
 import React from 'react';
 import PokemonList from './PokemonList';
 import pokemonData from '../data/data.json';
+import '../styles/index.css'
 import '../styles/App.css';
 
 

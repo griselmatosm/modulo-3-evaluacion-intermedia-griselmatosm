@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: space-around;
     transition: all 0.2s;
+    cursor: pointer;
 }
 
 .Pokemon:hover{
